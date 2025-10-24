@@ -8,7 +8,7 @@ import base64
 from dotenv import load_dotenv
 load_dotenv()
 # Configure your API key here
-genai.configure(api_key=GEMINI_API_KEY)
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
 # Initialize the model
 model = genai.GenerativeModel('gemini-2.0-flash-exp')
