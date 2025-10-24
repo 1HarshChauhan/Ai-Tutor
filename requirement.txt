@@ -1,0 +1,5 @@
+streamlit
+google-generativeai
+edge-tts
+SpeechRecognition
+pyaudio-fork
