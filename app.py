@@ -5,8 +5,6 @@ import speech_recognition as sr
 from io import BytesIO
 import base64
 
-from dotenv import load_dotenv
-load_dotenv()
 # Configure your API key here
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
